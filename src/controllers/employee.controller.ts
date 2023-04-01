@@ -37,8 +37,6 @@ const EmployeeController = {
     },
     UpdateEmployee: async (req: Request, res: Response) => {
         try {
-            console.log(req.body)
-
             const employee: {
                 name: string
                 dateOfBirth: string
